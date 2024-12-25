@@ -1,4 +1,4 @@
-name: Extract and Update Data
+name: Extract and Update my Data
 
 on:
   push:
