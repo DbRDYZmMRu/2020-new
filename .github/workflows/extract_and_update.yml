@@ -1,9 +1,12 @@
-name: Extract and Update my Data
+name: Extract and Update Data
 
 on:
   push:
     branches:
-      - main
+      - main  # Replace with your default branch if different
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -30,4 +33,4 @@ jobs:
           git config --global user.email 'github-actions@github.com'
           git add updated_February.json
           git commit -m 'Update February data with extracted content'
-          git push
+          git push git push https://github.com/DbRDYZmMRu/2020-new.git HEAD:main  # Replace with your repository URL and branch
