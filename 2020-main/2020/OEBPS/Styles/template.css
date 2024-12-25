@@ -1,0 +1,476 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+body {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+a {
+  text-decoration: none;
+}
+.a1 {
+  text-decoration: underline;
+  text-indent: 0;
+  text-align: justify;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+div.cover {
+  margin: 0;
+  text-align: center;
+  height: 100%;
+}
+.top4 {
+  margin-top: 4em;
+  margin-bottom: 0;
+}
+.top3 {
+  margin-top: 3em;
+  margin-bottom: 0;
+}
+.top2 {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+.top15 {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+}
+.center {
+  font-size: 0.9em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+.hide1 {
+  display: none;
+}
+/*.right_1
+{
+font-size:1em;
+padding:0.5em;
+float:right;
+}
+span[epub|type~='pagebreak'] {
+text-indent:0em;
+text-align:center;
+border:1px solid rgb(180,180,180);
+padding:0.1em 0.3em;
+}
+*/
+nav#toc ol {
+  text-indent: 0;
+  font-size: 1em;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 0;
+}
+*[hidden] {
+  display: none;
+}
+.toc {
+  font-size: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  text-indent: 0;
+  font-weight: normal;
+  text-align: justify;
+}
+div.full {
+  width: 100%;
+  margin: 1em auto;
+  padding: 0.5em 0 0.5em 0;
+  text-indent: 0;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.top1 {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+.top25 {
+  margin-top: 2.5em;
+  margin-bottom: 0;
+}
+.ded_pb {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.atp_address {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-indent: 0;
+  text-align: center;
+}
+.atp_website {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  text-indent: 0;
+  text-align: center;
+}
+.smallcaps {
+  font-size: 0.833em;
+  text-indent: 0;
+  text-align: justify;
+}
+.chap_h {
+  font-size: 1.25em;
+  margin-top: 3em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.part_h {
+  font-size: 3em;
+  margin-top: 3em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.ack_h {
+  font-size: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.abh_h {
+  font-size: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.copy_h {
+  font-size: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.copy_txt {
+  font-size: 0.9em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+  font-weight: normal;
+}
+.copy_txt_ts {
+  font-size: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+  font-weight: normal;
+}
+.ded_h {
+  font-size: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.toc_h {
+  font-size: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.toc_part {
+  font-size: 1.25em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+  font-weight: normal;
+}
+.toc_ch_be {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 1em;
+  margin-right: 0;
+  text-align: justify;
+  font-weight: normal;
+}
+.toc_ch_be1 {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 1.5em;
+  margin-right: 0;
+  text-align: justify;
+  font-weight: normal;
+}
+.toc_ch_be2 {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 2.0em;
+  margin-right: 0;
+  text-align: justify;
+  font-weight: normal;
+}
+.toc_ch_en {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 1em;
+  margin-right: 0;
+  text-align: justify;
+  font-weight: normal;
+}
+.toc_bm {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+  font-weight: normal;
+}
+.toc_fm {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+  font-weight: normal;
+}
+.nonindent_ws1 {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 2.5em;
+  margin-right: 0;
+  text-align: justify;
+}
+.nonindent {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+}
+.nonindent_t {
+  font-size: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+}
+.nonindent_wos {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: -2em;
+  margin-left: 2em;
+  margin-right: 0;
+  text-align: justify;
+}
+.nonindent_wos1 {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 8em;
+  margin-right: 0;
+  text-align: justify;
+}
+.nonindent_wosl {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+}
+.nonindent_wsl {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+}
+.publisher {
+  font-size: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+.chap_h1 {
+  font-size: 1.25em;
+  margin-top: 3em;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-weight: normal;
+}
+div.titlepage {
+  width: 100%;
+  margin: 1em auto;
+  padding: 0.5em 0 0.5em 0;
+  text-indent: 0;
+  text-align: center;
+  page-break-inside: avoid;
+}
+.ack {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+}
+@media amzn-mobi {
+  .hide1 {
+    display: none;
+  }
+  .nonindent_wos {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: -2em;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: justify;
+  }
+  .nonindent_wos1 {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: -7em;
+    margin-left: 7em;
+    margin-right: 0;
+    text-align: justify;
+  }
+}
+.big {
+  font-size: 2em;
+}
+.extraBig {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+.halftitle {
+  margin-top: 5em;
+  margin-bottom: 0;
+  text-indent: 0;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.1em;
+}
+.title {
+  margin-top: 1em;
+  margin-bottom: 0;
+  text-indent: 0;
+  text-align: center;
+  font-size: 1.9em;
+  line-height: 1.1em;
+}
+.subtitle {
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  text-indent: 0;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+.subtitle1 {
+  margin-top: 0.6em;
+  margin-bottom: 5em;
+  text-indent: 0;
+  text-align: center;
+  font-size: 0.95em;
+}
+.subtitle2 {
+  margin-top: 0.2em;
+  margin-bottom: 5em;
+  text-indent: 0;
+  text-align: center;
+  font-size: 0.95em;
+}
+.author {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  text-align: center;
+  font-size: 0.9em;
+}
+.author1 {
+  margin-top: 1em;
+  margin-bottom: 0;
+  text-indent: 0;
+  text-align: center;
+  font-size: 1.1em;
+}

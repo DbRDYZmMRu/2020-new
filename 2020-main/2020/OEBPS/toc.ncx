@@ -1,0 +1,1323 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:uid" content="9780063032514"/>
+    <meta name="dtb:depth" content="4"/>
+    <meta name="dtb:generator" content="calibre (6.12.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Vision 2020 (A Life Worth Living)</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Cover</text>
+      </navLabel>
+      <content src="Text/cover.xhtml#cover"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>Title Page</text>
+      </navLabel>
+      <content src="Text/Titlepage.xhtml#toc_1"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="3">
+      <navLabel>
+        <text>Author's Note</text>
+      </navLabel>
+      <content src="../authorNote.xhtml#AuthorsNote"/>
+    </navPoint>
+    <navPoint id="num_4" playOrder="4">
+      <navLabel>
+        <text>Copyrights</text>
+      </navLabel>
+      <content src="Text/CopyrightBeginning.xhtml#cop"/>
+    </navPoint>
+    <navPoint id="num_5" playOrder="5">
+      <navLabel>
+        <text>Dedication</text>
+      </navLabel>
+      <content src="Text/Dedication.xhtml#toc_1"/>
+    </navPoint>
+    <navPoint id="num_6" playOrder="6">
+      <navLabel>
+        <text>Contents</text>
+      </navLabel>
+      <content src="Text/Contents.xhtml#contents"/>
+    </navPoint>
+    <navPoint id="num_7" playOrder="7">
+      <navLabel>
+        <text>2019</text>
+      </navLabel>
+      <content src="../Year_2019.xhtml#sc_Year_2019"/>
+      <navPoint id="num_8" playOrder="8">
+        <navLabel>
+          <text>June</text>
+        </navLabel>
+        <content src="../June_2019.xhtml#sc_June_2019"/>
+        <navPoint id="num_9" playOrder="9">
+          <navLabel>
+            <text>Tuesday, June 18, 2019</text>
+          </navLabel>
+          <content src="../June_18_2019.xhtml"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_10" playOrder="10">
+      <navLabel>
+        <text>2020</text>
+      </navLabel>
+      <content src="../Year_2020.xhtml#sc_Year_2020"/>
+      <navPoint id="num_11" playOrder="11">
+        <navLabel>
+          <text>Author's Note</text>
+        </navLabel>
+        <content src="../Introduction.xhtml"/>
+      </navPoint>
+      <navPoint id="num_12" playOrder="12">
+        <navLabel>
+          <text>February</text>
+        </navLabel>
+        <content src="../February.xhtml"/>
+        <navPoint id="num_13" playOrder="13">
+          <navLabel>
+            <text>Saturday, July 11, 2020</text>
+          </navLabel>
+          <content src="../February_8.xhtml"/>
+        </navPoint>
+        <navPoint id="num_14" playOrder="14">
+          <navLabel>
+            <text>Sunday, February 9, 2020</text>
+          </navLabel>
+          <content src="../February_9.xhtml"/>
+        </navPoint>
+        <navPoint id="num_15" playOrder="15">
+          <navLabel>
+            <text>Tuesday, February 11, 2020</text>
+          </navLabel>
+          <content src="../February_11.xhtml"/>
+        </navPoint>
+        <navPoint id="num_16" playOrder="16">
+          <navLabel>
+            <text>Wednesday, February 12, 2020</text>
+          </navLabel>
+          <content src="../February_12.xhtml"/>
+        </navPoint>
+        <navPoint id="num_17" playOrder="17">
+          <navLabel>
+            <text>Thursday, February 13, 2020</text>
+          </navLabel>
+          <content src="../February_13.xhtml"/>
+        </navPoint>
+        <navPoint id="num_18" playOrder="18">
+          <navLabel>
+            <text>Friday, February 14, 2020</text>
+          </navLabel>
+          <content src="../February_14.xhtml"/>
+        </navPoint>
+        <navPoint id="num_19" playOrder="19">
+          <navLabel>
+            <text>Saturday, February 15, 2020</text>
+          </navLabel>
+          <content src="../February_15.xhtml"/>
+        </navPoint>
+        <navPoint id="num_20" playOrder="20">
+          <navLabel>
+            <text>Sunday, February 16, 2020</text>
+          </navLabel>
+          <content src="../February_16.xhtml"/>
+        </navPoint>
+        <navPoint id="num_21" playOrder="21">
+          <navLabel>
+            <text>Monday, February 17, 2020</text>
+          </navLabel>
+          <content src="../February_17.xhtml"/>
+        </navPoint>
+        <navPoint id="num_22" playOrder="22">
+          <navLabel>
+            <text>Saturday, February 22, 2020</text>
+          </navLabel>
+          <content src="../February_22.xhtml"/>
+        </navPoint>
+        <navPoint id="num_23" playOrder="23">
+          <navLabel>
+            <text>Monday, February 24, 2020</text>
+          </navLabel>
+          <content src="../February_24.xhtml"/>
+        </navPoint>
+        <navPoint id="num_24" playOrder="24">
+          <navLabel>
+            <text>Tuesday, February 25, 2020</text>
+          </navLabel>
+          <content src="../February_25.xhtml"/>
+        </navPoint>
+        <navPoint id="num_25" playOrder="25">
+          <navLabel>
+            <text>Wednesday, February 26, 2020</text>
+          </navLabel>
+          <content src="../February_26.xhtml"/>
+        </navPoint>
+        <navPoint id="num_26" playOrder="26">
+          <navLabel>
+            <text>Saturday, February 29, 2020</text>
+          </navLabel>
+          <content src="../February_29.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_27" playOrder="27">
+        <navLabel>
+          <text>March</text>
+        </navLabel>
+        <content src="../March.xhtml"/>
+        <navPoint id="num_28" playOrder="28">
+          <navLabel>
+            <text>Sunday, March 1, 2020</text>
+          </navLabel>
+          <content src="../March_1.xhtml"/>
+        </navPoint>
+        <navPoint id="num_29" playOrder="29">
+          <navLabel>
+            <text>Monday, March 2, 2020</text>
+          </navLabel>
+          <content src="../March_2.xhtml"/>
+        </navPoint>
+        <navPoint id="num_30" playOrder="30">
+          <navLabel>
+            <text>Thursday, March 5, 2020</text>
+          </navLabel>
+          <content src="../March_5.xhtml"/>
+        </navPoint>
+        <navPoint id="num_31" playOrder="31">
+          <navLabel>
+            <text>Friday, March 6, 2020</text>
+          </navLabel>
+          <content src="../March_6.xhtml"/>
+        </navPoint>
+        <navPoint id="num_32" playOrder="32">
+          <navLabel>
+            <text>Saturday, March 7, 2020</text>
+          </navLabel>
+          <content src="../March_7.xhtml"/>
+        </navPoint>
+        <navPoint id="num_33" playOrder="33">
+          <navLabel>
+            <text>Sunday, March 8, 2020</text>
+          </navLabel>
+          <content src="../March_8.xhtml"/>
+        </navPoint>
+        <navPoint id="num_34" playOrder="34">
+          <navLabel>
+            <text>Monday, March 9, 2020</text>
+          </navLabel>
+          <content src="../March_9.xhtml"/>
+        </navPoint>
+        <navPoint id="num_35" playOrder="35">
+          <navLabel>
+            <text>Tuesday, March 10, 2020</text>
+          </navLabel>
+          <content src="../March_10.xhtml"/>
+        </navPoint>
+        <navPoint id="num_36" playOrder="36">
+          <navLabel>
+            <text>Wednesday, March 11, 2020</text>
+          </navLabel>
+          <content src="../March_11.xhtml"/>
+        </navPoint>
+        <navPoint id="num_37" playOrder="37">
+          <navLabel>
+            <text>Thursday, March 12, 2020</text>
+          </navLabel>
+          <content src="../March_12.xhtml"/>
+        </navPoint>
+        <navPoint id="num_38" playOrder="38">
+          <navLabel>
+            <text>Friday, March 13, 2020</text>
+          </navLabel>
+          <content src="../March_13.xhtml"/>
+        </navPoint>
+        <navPoint id="num_39" playOrder="39">
+          <navLabel>
+            <text>Saturday, March 14, 2020</text>
+          </navLabel>
+          <content src="../March_14.xhtml"/>
+        </navPoint>
+        <navPoint id="num_40" playOrder="40">
+          <navLabel>
+            <text>Sunday, March 15, 2020</text>
+          </navLabel>
+          <content src="../March_15.xhtml"/>
+        </navPoint>
+        <navPoint id="num_41" playOrder="41">
+          <navLabel>
+            <text>Monday, March 16, 2020</text>
+          </navLabel>
+          <content src="../March_16.xhtml"/>
+        </navPoint>
+        <navPoint id="num_42" playOrder="42">
+          <navLabel>
+            <text>Tuesday, March 17, 2020</text>
+          </navLabel>
+          <content src="../March_17.xhtml"/>
+        </navPoint>
+        <navPoint id="num_43" playOrder="43">
+          <navLabel>
+            <text>Thursday, March 19, 2020</text>
+          </navLabel>
+          <content src="../March_19.xhtml"/>
+        </navPoint>
+        <navPoint id="num_44" playOrder="44">
+          <navLabel>
+            <text>Friday, March 20, 2020</text>
+          </navLabel>
+          <content src="../March_20.xhtml"/>
+        </navPoint>
+        <navPoint id="num_45" playOrder="45">
+          <navLabel>
+            <text>Saturday, March 21, 2020</text>
+          </navLabel>
+          <content src="../March_21.xhtml"/>
+        </navPoint>
+        <navPoint id="num_46" playOrder="46">
+          <navLabel>
+            <text>Sunday, March 22, 2020</text>
+          </navLabel>
+          <content src="../March_22.xhtml"/>
+        </navPoint>
+        <navPoint id="num_47" playOrder="47">
+          <navLabel>
+            <text>Tuesday, March 24, 2020</text>
+          </navLabel>
+          <content src="../March_24.xhtml"/>
+        </navPoint>
+        <navPoint id="num_48" playOrder="48">
+          <navLabel>
+            <text>Wednesday, March 25, 2020</text>
+          </navLabel>
+          <content src="../March_25.xhtml"/>
+        </navPoint>
+        <navPoint id="num_49" playOrder="49">
+          <navLabel>
+            <text>Thursday, March 26, 2020</text>
+          </navLabel>
+          <content src="../March_26.xhtml"/>
+        </navPoint>
+        <navPoint id="num_50" playOrder="50">
+          <navLabel>
+            <text>Friday, March 27, 2020</text>
+          </navLabel>
+          <content src="../March_27.xhtml"/>
+        </navPoint>
+        <navPoint id="num_51" playOrder="51">
+          <navLabel>
+            <text>Saturday, March 28, 2020</text>
+          </navLabel>
+          <content src="../March_28.xhtml"/>
+        </navPoint>
+        <navPoint id="num_52" playOrder="52">
+          <navLabel>
+            <text>Sunday, March 29, 2020</text>
+          </navLabel>
+          <content src="../March_29.xhtml"/>
+        </navPoint>
+        <navPoint id="num_53" playOrder="53">
+          <navLabel>
+            <text>Monday, March 30, 2020</text>
+          </navLabel>
+          <content src="../March_30.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_54" playOrder="54">
+        <navLabel>
+          <text>April</text>
+        </navLabel>
+        <content src="../April.xhtml"/>
+        <navPoint id="num_55" playOrder="55">
+          <navLabel>
+            <text>Thursday, April 2, 2020</text>
+          </navLabel>
+          <content src="../April_2.xhtml"/>
+        </navPoint>
+        <navPoint id="num_56" playOrder="56">
+          <navLabel>
+            <text>Friday, April 3, 2020</text>
+          </navLabel>
+          <content src="../April_3.xhtml"/>
+        </navPoint>
+        <navPoint id="num_57" playOrder="57">
+          <navLabel>
+            <text>Saturday, April 4, 2020</text>
+          </navLabel>
+          <content src="../April_4.xhtml"/>
+        </navPoint>
+        <navPoint id="num_58" playOrder="58">
+          <navLabel>
+            <text>Sunday, April 5, 2020</text>
+          </navLabel>
+          <content src="../April_5.xhtml"/>
+        </navPoint>
+        <navPoint id="num_59" playOrder="59">
+          <navLabel>
+            <text>Tuesday, April 7, 2020</text>
+          </navLabel>
+          <content src="../April_7.xhtml"/>
+        </navPoint>
+        <navPoint id="num_60" playOrder="60">
+          <navLabel>
+            <text>Wednesday, April 8, 2020</text>
+          </navLabel>
+          <content src="../April_8.xhtml"/>
+        </navPoint>
+        <navPoint id="num_61" playOrder="61">
+          <navLabel>
+            <text>Thursday, April 9, 2020</text>
+          </navLabel>
+          <content src="../April_9.xhtml"/>
+        </navPoint>
+        <navPoint id="num_62" playOrder="62">
+          <navLabel>
+            <text>Friday, April 10, 2020</text>
+          </navLabel>
+          <content src="../April_10.xhtml"/>
+        </navPoint>
+        <navPoint id="num_63" playOrder="63">
+          <navLabel>
+            <text>Saturday, April 11, 2020</text>
+          </navLabel>
+          <content src="../April_11.xhtml"/>
+        </navPoint>
+        <navPoint id="num_64" playOrder="64">
+          <navLabel>
+            <text>Sunday, April 12, 2020</text>
+          </navLabel>
+          <content src="../April_12.xhtml"/>
+        </navPoint>
+        <navPoint id="num_65" playOrder="65">
+          <navLabel>
+            <text>Monday, April 13, 2020</text>
+          </navLabel>
+          <content src="../April_13.xhtml"/>
+        </navPoint>
+        <navPoint id="num_66" playOrder="66">
+          <navLabel>
+            <text>Tuesday, April 14, 2020</text>
+          </navLabel>
+          <content src="../April_14.xhtml"/>
+        </navPoint>
+        <navPoint id="num_67" playOrder="67">
+          <navLabel>
+            <text>Wednesday, April 15, 2020</text>
+          </navLabel>
+          <content src="../April_15.xhtml"/>
+        </navPoint>
+        <navPoint id="num_68" playOrder="68">
+          <navLabel>
+            <text>Thursday, April 16, 2020</text>
+          </navLabel>
+          <content src="../April_16.xhtml"/>
+        </navPoint>
+        <navPoint id="num_69" playOrder="69">
+          <navLabel>
+            <text>Friday, April 17, 2020</text>
+          </navLabel>
+          <content src="../April_17.xhtml"/>
+        </navPoint>
+        <navPoint id="num_70" playOrder="70">
+          <navLabel>
+            <text>Saturday, April 18, 2020</text>
+          </navLabel>
+          <content src="../April_18.xhtml"/>
+        </navPoint>
+        <navPoint id="num_71" playOrder="71">
+          <navLabel>
+            <text>Sunday, April 19, 2020</text>
+          </navLabel>
+          <content src="../April_19.xhtml"/>
+        </navPoint>
+        <navPoint id="num_72" playOrder="72">
+          <navLabel>
+            <text>Monday, April 20, 2020</text>
+          </navLabel>
+          <content src="../April_20.xhtml"/>
+        </navPoint>
+        <navPoint id="num_73" playOrder="73">
+          <navLabel>
+            <text>Tuesday, April 21, 2020</text>
+          </navLabel>
+          <content src="../April_21.xhtml"/>
+        </navPoint>
+        <navPoint id="num_74" playOrder="74">
+          <navLabel>
+            <text>Wednesday, April 22, 2020</text>
+          </navLabel>
+          <content src="../April_22.xhtml"/>
+        </navPoint>
+        <navPoint id="num_75" playOrder="75">
+          <navLabel>
+            <text>Thursday, April 23, 2020</text>
+          </navLabel>
+          <content src="../April_23.xhtml"/>
+        </navPoint>
+        <navPoint id="num_76" playOrder="76">
+          <navLabel>
+            <text>Friday, April 24, 2020</text>
+          </navLabel>
+          <content src="../April_24.xhtml"/>
+        </navPoint>
+        <navPoint id="num_77" playOrder="77">
+          <navLabel>
+            <text>Saturday, April 25, 2020</text>
+          </navLabel>
+          <content src="../April_25.xhtml"/>
+        </navPoint>
+        <navPoint id="num_78" playOrder="78">
+          <navLabel>
+            <text>Sunday, April 26, 2020</text>
+          </navLabel>
+          <content src="../April_26.xhtml"/>
+        </navPoint>
+        <navPoint id="num_79" playOrder="79">
+          <navLabel>
+            <text>Monday, April 27, 2020</text>
+          </navLabel>
+          <content src="../April_27.xhtml"/>
+        </navPoint>
+        <navPoint id="num_80" playOrder="80">
+          <navLabel>
+            <text>Tuesday, April 28, 2020</text>
+          </navLabel>
+          <content src="../April_28.xhtml"/>
+        </navPoint>
+        <navPoint id="num_81" playOrder="81">
+          <navLabel>
+            <text>Wednesday, April 29, 2020</text>
+          </navLabel>
+          <content src="../April_29.xhtml"/>
+        </navPoint>
+        <navPoint id="num_82" playOrder="82">
+          <navLabel>
+            <text>Thursday, April 30, 2020</text>
+          </navLabel>
+          <content src="../April_30.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_83" playOrder="83">
+        <navLabel>
+          <text>May</text>
+        </navLabel>
+        <content src="../May.xhtml"/>
+        <navPoint id="num_84" playOrder="84">
+          <navLabel>
+            <text>Friday, May 1, 2020</text>
+          </navLabel>
+          <content src="../May_1.xhtml"/>
+        </navPoint>
+        <navPoint id="num_85" playOrder="85">
+          <navLabel>
+            <text>Saturday, May 2, 2020</text>
+          </navLabel>
+          <content src="../May_2.xhtml"/>
+        </navPoint>
+        <navPoint id="num_86" playOrder="86">
+          <navLabel>
+            <text>Sunday, May 3, 2020</text>
+          </navLabel>
+          <content src="../May_3.xhtml"/>
+        </navPoint>
+        <navPoint id="num_87" playOrder="87">
+          <navLabel>
+            <text>Monday, May 4, 2020</text>
+          </navLabel>
+          <content src="../May_4.xhtml"/>
+        </navPoint>
+        <navPoint id="num_88" playOrder="88">
+          <navLabel>
+            <text>Tuesday, May 5, 2020</text>
+          </navLabel>
+          <content src="../May_5.xhtml"/>
+        </navPoint>
+        <navPoint id="num_89" playOrder="89">
+          <navLabel>
+            <text>Wednesday, May 6, 2020</text>
+          </navLabel>
+          <content src="../May_6.xhtml"/>
+        </navPoint>
+        <navPoint id="num_90" playOrder="90">
+          <navLabel>
+            <text>Thursday, May 7, 2020</text>
+          </navLabel>
+          <content src="../May_7.xhtml"/>
+        </navPoint>
+        <navPoint id="num_91" playOrder="91">
+          <navLabel>
+            <text>Friday, May 8, 2020</text>
+          </navLabel>
+          <content src="../May_8.xhtml"/>
+        </navPoint>
+        <navPoint id="num_92" playOrder="92">
+          <navLabel>
+            <text>Saturday, May 9, 2020</text>
+          </navLabel>
+          <content src="../May_9.xhtml"/>
+        </navPoint>
+        <navPoint id="num_93" playOrder="93">
+          <navLabel>
+            <text>Sunday, May 10, 2020</text>
+          </navLabel>
+          <content src="../May_10.xhtml"/>
+        </navPoint>
+        <navPoint id="num_94" playOrder="94">
+          <navLabel>
+            <text>Monday, May 11, 2020</text>
+          </navLabel>
+          <content src="../May_11.xhtml"/>
+        </navPoint>
+        <navPoint id="num_95" playOrder="95">
+          <navLabel>
+            <text>Tuesday, May 12, 2020</text>
+          </navLabel>
+          <content src="../May_12.xhtml"/>
+        </navPoint>
+        <navPoint id="num_96" playOrder="96">
+          <navLabel>
+            <text>Wednesday, May 13, 2020</text>
+          </navLabel>
+          <content src="../May_13.xhtml"/>
+        </navPoint>
+        <navPoint id="num_97" playOrder="97">
+          <navLabel>
+            <text>Thursday, May 14, 2020</text>
+          </navLabel>
+          <content src="../May_14.xhtml"/>
+        </navPoint>
+        <navPoint id="num_98" playOrder="98">
+          <navLabel>
+            <text>Friday, May 15, 2020</text>
+          </navLabel>
+          <content src="../May_15.xhtml"/>
+        </navPoint>
+        <navPoint id="num_99" playOrder="99">
+          <navLabel>
+            <text>Saturday, May 16, 2020</text>
+          </navLabel>
+          <content src="../May_16.xhtml"/>
+        </navPoint>
+        <navPoint id="num_100" playOrder="100">
+          <navLabel>
+            <text>Sunday, May 17, 2020</text>
+          </navLabel>
+          <content src="../May_17.xhtml"/>
+        </navPoint>
+        <navPoint id="num_101" playOrder="101">
+          <navLabel>
+            <text>Monday, May 18, 2020</text>
+          </navLabel>
+          <content src="../May_18.xhtml"/>
+        </navPoint>
+        <navPoint id="num_102" playOrder="102">
+          <navLabel>
+            <text>Tuesday, May 19, 2020</text>
+          </navLabel>
+          <content src="../May_19.xhtml"/>
+        </navPoint>
+        <navPoint id="num_103" playOrder="103">
+          <navLabel>
+            <text>Wednesday, May 20, 2020</text>
+          </navLabel>
+          <content src="../May_20.xhtml"/>
+        </navPoint>
+        <navPoint id="num_104" playOrder="104">
+          <navLabel>
+            <text>Thursday, May 21, 2020</text>
+          </navLabel>
+          <content src="../May_21.xhtml"/>
+        </navPoint>
+        <navPoint id="num_105" playOrder="105">
+          <navLabel>
+            <text>Friday, May 22, 2020</text>
+          </navLabel>
+          <content src="../May_22.xhtml"/>
+        </navPoint>
+        <navPoint id="num_106" playOrder="106">
+          <navLabel>
+            <text>Saturday, May 23, 2020</text>
+          </navLabel>
+          <content src="../May_23.xhtml"/>
+        </navPoint>
+        <navPoint id="num_107" playOrder="107">
+          <navLabel>
+            <text>Monday, May 25, 2020</text>
+          </navLabel>
+          <content src="../May_25.xhtml"/>
+        </navPoint>
+        <navPoint id="num_108" playOrder="108">
+          <navLabel>
+            <text>Tuesday, May 26, 2020</text>
+          </navLabel>
+          <content src="../May_26.xhtml"/>
+        </navPoint>
+        <navPoint id="num_109" playOrder="109">
+          <navLabel>
+            <text>Wednesday, May 27, 2020</text>
+          </navLabel>
+          <content src="../May_27.xhtml"/>
+        </navPoint>
+        <navPoint id="num_110" playOrder="110">
+          <navLabel>
+            <text>Thursday, May 28, 2020</text>
+          </navLabel>
+          <content src="../May_28.xhtml"/>
+        </navPoint>
+        <navPoint id="num_111" playOrder="111">
+          <navLabel>
+            <text>Saturday, May 30, 2020</text>
+          </navLabel>
+          <content src="../May_30.xhtml"/>
+        </navPoint>
+        <navPoint id="num_112" playOrder="112">
+          <navLabel>
+            <text>Sunday, May 31, 2020</text>
+          </navLabel>
+          <content src="../May_31.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_113" playOrder="113">
+        <navLabel>
+          <text>June</text>
+        </navLabel>
+        <content src="../June.xhtml"/>
+        <navPoint id="num_114" playOrder="114">
+          <navLabel>
+            <text>Thursday, June 3, 2020</text>
+          </navLabel>
+          <content src="../June_3.xhtml"/>
+        </navPoint>
+        <navPoint id="num_115" playOrder="115">
+          <navLabel>
+            <text>Saturday, June 6, 2020</text>
+          </navLabel>
+          <content src="../June_6.xhtml"/>
+        </navPoint>
+        <navPoint id="num_116" playOrder="116">
+          <navLabel>
+            <text>Sunday, June 7, 2020</text>
+          </navLabel>
+          <content src="../June_7.xhtml"/>
+        </navPoint>
+        <navPoint id="num_117" playOrder="117">
+          <navLabel>
+            <text>Monday, June 8, 2020</text>
+          </navLabel>
+          <content src="../June_8.xhtml"/>
+        </navPoint>
+        <navPoint id="num_118" playOrder="118">
+          <navLabel>
+            <text>Tuesday, June 9, 2020</text>
+          </navLabel>
+          <content src="../June_9.xhtml"/>
+        </navPoint>
+        <navPoint id="num_119" playOrder="119">
+          <navLabel>
+            <text>Wednesday, June 10, 2020</text>
+          </navLabel>
+          <content src="../June_10.xhtml"/>
+        </navPoint>
+        <navPoint id="num_120" playOrder="120">
+          <navLabel>
+            <text>Thursday, June 11, 2020</text>
+          </navLabel>
+          <content src="../June_11.xhtml"/>
+        </navPoint>
+        <navPoint id="num_121" playOrder="121">
+          <navLabel>
+            <text>Friday, June 12, 2020</text>
+          </navLabel>
+          <content src="../June_12.xhtml"/>
+        </navPoint>
+        <navPoint id="num_122" playOrder="122">
+          <navLabel>
+            <text>Saturday, June 13, 2020</text>
+          </navLabel>
+          <content src="../June_13.xhtml"/>
+        </navPoint>
+        <navPoint id="num_123" playOrder="123">
+          <navLabel>
+            <text>Sunday, June 14, 2020</text>
+          </navLabel>
+          <content src="../June_14.xhtml"/>
+        </navPoint>
+        <navPoint id="num_124" playOrder="124">
+          <navLabel>
+            <text>Monday, June 15, 2020</text>
+          </navLabel>
+          <content src="../June_15.xhtml"/>
+        </navPoint>
+        <navPoint id="num_125" playOrder="125">
+          <navLabel>
+            <text>Friday, June 19, 2020</text>
+          </navLabel>
+          <content src="../June_19.xhtml"/>
+        </navPoint>
+        <navPoint id="num_126" playOrder="126">
+          <navLabel>
+            <text>Saturday, June 20, 2020</text>
+          </navLabel>
+          <content src="../June_20.xhtml"/>
+        </navPoint>
+        <navPoint id="num_127" playOrder="127">
+          <navLabel>
+            <text>Monday, June 22, 2020</text>
+          </navLabel>
+          <content src="../June_22.xhtml"/>
+        </navPoint>
+        <navPoint id="num_128" playOrder="128">
+          <navLabel>
+            <text>Tuesday, June 23, 2020</text>
+          </navLabel>
+          <content src="../June_23.xhtml"/>
+        </navPoint>
+        <navPoint id="num_129" playOrder="129">
+          <navLabel>
+            <text>Wednesday, June 24, 2020</text>
+          </navLabel>
+          <content src="../June_24.xhtml"/>
+        </navPoint>
+        <navPoint id="num_130" playOrder="130">
+          <navLabel>
+            <text>Sunday, June 28, 2020</text>
+          </navLabel>
+          <content src="../June_28.xhtml"/>
+        </navPoint>
+        <navPoint id="num_131" playOrder="131">
+          <navLabel>
+            <text>Monday, June 29, 2020</text>
+          </navLabel>
+          <content src="../June_29.xhtml"/>
+        </navPoint>
+        <navPoint id="num_132" playOrder="132">
+          <navLabel>
+            <text>Tuesday, June 30, 2020</text>
+          </navLabel>
+          <content src="../June_30.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_133" playOrder="133">
+        <navLabel>
+          <text>July</text>
+        </navLabel>
+        <content src="../July.xhtml"/>
+        <navPoint id="num_134" playOrder="134">
+          <navLabel>
+            <text>Wednesday, July 1, 2020</text>
+          </navLabel>
+          <content src="../July_1.xhtml"/>
+        </navPoint>
+        <navPoint id="num_135" playOrder="135">
+          <navLabel>
+            <text>Thursday, July 2, 2020</text>
+          </navLabel>
+          <content src="../July_2.xhtml"/>
+        </navPoint>
+        <navPoint id="num_136" playOrder="136">
+          <navLabel>
+            <text>Friday, July 3, 2020</text>
+          </navLabel>
+          <content src="../July_3.xhtml"/>
+        </navPoint>
+        <navPoint id="num_137" playOrder="137">
+          <navLabel>
+            <text>Saturday, July 4, 2020</text>
+          </navLabel>
+          <content src="../July_4.xhtml"/>
+        </navPoint>
+        <navPoint id="num_138" playOrder="138">
+          <navLabel>
+            <text>Sunday, July 5, 2020</text>
+          </navLabel>
+          <content src="../July_5.xhtml"/>
+        </navPoint>
+        <navPoint id="num_139" playOrder="139">
+          <navLabel>
+            <text>Monday, July 6, 2020</text>
+          </navLabel>
+          <content src="../July_6.xhtml"/>
+        </navPoint>
+        <navPoint id="num_140" playOrder="140">
+          <navLabel>
+            <text>Tuesday, July 7, 2020</text>
+          </navLabel>
+          <content src="../July_7.xhtml"/>
+        </navPoint>
+        <navPoint id="num_141" playOrder="141">
+          <navLabel>
+            <text>Wednesday, July 8, 2020</text>
+          </navLabel>
+          <content src="../July_8.xhtml"/>
+        </navPoint>
+        <navPoint id="num_142" playOrder="142">
+          <navLabel>
+            <text>Thursday, July 9, 2020</text>
+          </navLabel>
+          <content src="../July_9.xhtml"/>
+        </navPoint>
+        <navPoint id="num_143" playOrder="143">
+          <navLabel>
+            <text>Friday, July 10, 2020</text>
+          </navLabel>
+          <content src="../July_10.xhtml"/>
+        </navPoint>
+        <navPoint id="num_144" playOrder="144">
+          <navLabel>
+            <text>Saturday, July 11, 2020</text>
+          </navLabel>
+          <content src="../July_11.xhtml"/>
+        </navPoint>
+        <navPoint id="num_145" playOrder="145">
+          <navLabel>
+            <text>Sunday, July 12, 2020</text>
+          </navLabel>
+          <content src="../July_12.xhtml"/>
+        </navPoint>
+        <navPoint id="num_146" playOrder="146">
+          <navLabel>
+            <text>Monday, July 13, 2020</text>
+          </navLabel>
+          <content src="../July_13.xhtml"/>
+        </navPoint>
+        <navPoint id="num_147" playOrder="147">
+          <navLabel>
+            <text>Wednesday, July 15, 2020</text>
+          </navLabel>
+          <content src="../July_15.xhtml"/>
+        </navPoint>
+        <navPoint id="num_148" playOrder="148">
+          <navLabel>
+            <text>Wednesday, July 22, 2020</text>
+          </navLabel>
+          <content src="../July_22.xhtml"/>
+        </navPoint>
+        <navPoint id="num_149" playOrder="149">
+          <navLabel>
+            <text>Saturday, July 25, 2020</text>
+          </navLabel>
+          <content src="../July_25.xhtml"/>
+        </navPoint>
+        <navPoint id="num_150" playOrder="150">
+          <navLabel>
+            <text>Sunday, July 26, 2020</text>
+          </navLabel>
+          <content src="../July_26.xhtml"/>
+        </navPoint>
+        <navPoint id="num_151" playOrder="151">
+          <navLabel>
+            <text>Monday, July 27, 2020</text>
+          </navLabel>
+          <content src="../July_27.xhtml"/>
+        </navPoint>
+        <navPoint id="num_152" playOrder="152">
+          <navLabel>
+            <text>Tuesday, July 28, 2020</text>
+          </navLabel>
+          <content src="../July_28.xhtml"/>
+        </navPoint>
+        <navPoint id="num_153" playOrder="153">
+          <navLabel>
+            <text>Wednesday, July 29, 2020</text>
+          </navLabel>
+          <content src="../July_29.xhtml"/>
+        </navPoint>
+        <navPoint id="num_154" playOrder="154">
+          <navLabel>
+            <text>Thursday, July 30, 2020</text>
+          </navLabel>
+          <content src="../July_30.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_155" playOrder="155">
+        <navLabel>
+          <text>August</text>
+        </navLabel>
+        <content src="../August.xhtml"/>
+        <navPoint id="num_156" playOrder="156">
+          <navLabel>
+            <text>Saturday, August 1, 2020</text>
+          </navLabel>
+          <content src="../August_1.xhtml"/>
+        </navPoint>
+        <navPoint id="num_157" playOrder="157">
+          <navLabel>
+            <text>Sunday, August 2, 2020</text>
+          </navLabel>
+          <content src="../August_2.xhtml"/>
+        </navPoint>
+        <navPoint id="num_158" playOrder="158">
+          <navLabel>
+            <text>Tuesday, August 4, 2020</text>
+          </navLabel>
+          <content src="../August_4.xhtml"/>
+        </navPoint>
+        <navPoint id="num_159" playOrder="159">
+          <navLabel>
+            <text>Wednesday, August 5, 2020</text>
+          </navLabel>
+          <content src="../August_5.xhtml"/>
+        </navPoint>
+        <navPoint id="num_160" playOrder="160">
+          <navLabel>
+            <text>Friday, August 7, 2020</text>
+          </navLabel>
+          <content src="../August_7.xhtml"/>
+        </navPoint>
+        <navPoint id="num_161" playOrder="161">
+          <navLabel>
+            <text>Saturday, August 8, 2020</text>
+          </navLabel>
+          <content src="../August_8.xhtml"/>
+        </navPoint>
+        <navPoint id="num_162" playOrder="162">
+          <navLabel>
+            <text>Saturday, August 9, 2020</text>
+          </navLabel>
+          <content src="../August_9.xhtml"/>
+        </navPoint>
+        <navPoint id="num_163" playOrder="163">
+          <navLabel>
+            <text>Sunday, August 10, 2020</text>
+          </navLabel>
+          <content src="../August_10.xhtml"/>
+        </navPoint>
+        <navPoint id="num_164" playOrder="164">
+          <navLabel>
+            <text>Friday, August 14, 2020</text>
+          </navLabel>
+          <content src="../August_14.xhtml"/>
+        </navPoint>
+        <navPoint id="num_165" playOrder="165">
+          <navLabel>
+            <text>Sunday, August 16, 2020</text>
+          </navLabel>
+          <content src="../August_16.xhtml"/>
+        </navPoint>
+        <navPoint id="num_166" playOrder="166">
+          <navLabel>
+            <text>Monday, August 17, 2020</text>
+          </navLabel>
+          <content src="../August_17.xhtml"/>
+        </navPoint>
+        <navPoint id="num_167" playOrder="167">
+          <navLabel>
+            <text>Tuesday, August 18, 2020</text>
+          </navLabel>
+          <content src="../August_18.xhtml"/>
+        </navPoint>
+        <navPoint id="num_168" playOrder="168">
+          <navLabel>
+            <text>Wednesday, August 19, 2020</text>
+          </navLabel>
+          <content src="../August_19.xhtml"/>
+        </navPoint>
+        <navPoint id="num_169" playOrder="169">
+          <navLabel>
+            <text>Friday, August 21, 2020</text>
+          </navLabel>
+          <content src="../August_21.xhtml"/>
+        </navPoint>
+        <navPoint id="num_170" playOrder="170">
+          <navLabel>
+            <text>Saturday, August 22, 2020</text>
+          </navLabel>
+          <content src="../August_22.xhtml"/>
+        </navPoint>
+        <navPoint id="num_171" playOrder="171">
+          <navLabel>
+            <text>Tuesday, August 25, 2020</text>
+          </navLabel>
+          <content src="../August_25.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_172" playOrder="172">
+        <navLabel>
+          <text>September</text>
+        </navLabel>
+        <content src="../September.xhtml"/>
+        <navPoint id="num_173" playOrder="173">
+          <navLabel>
+            <text>Friday, September 11, 2020</text>
+          </navLabel>
+          <content src="../September_11.xhtml"/>
+        </navPoint>
+        <navPoint id="num_174" playOrder="174">
+          <navLabel>
+            <text>Monday, September 21, 2020</text>
+          </navLabel>
+          <content src="../September_21.xhtml"/>
+        </navPoint>
+        <navPoint id="num_175" playOrder="175">
+          <navLabel>
+            <text>Tuesday, September 22, 2020</text>
+          </navLabel>
+          <content src="../September_22.xhtml"/>
+        </navPoint>
+        <navPoint id="num_176" playOrder="176">
+          <navLabel>
+            <text>Wednesday, September 23, 2020</text>
+          </navLabel>
+          <content src="../September_23.xhtml"/>
+        </navPoint>
+        <navPoint id="num_177" playOrder="177">
+          <navLabel>
+            <text>Thursday, September 24, 2020</text>
+          </navLabel>
+          <content src="../September_24.xhtml"/>
+        </navPoint>
+        <navPoint id="num_178" playOrder="178">
+          <navLabel>
+            <text>Friday, September 25, 2020</text>
+          </navLabel>
+          <content src="../September_25.xhtml"/>
+        </navPoint>
+        <navPoint id="num_179" playOrder="179">
+          <navLabel>
+            <text>Saturday, September 26, 2020</text>
+          </navLabel>
+          <content src="../September_26.xhtml"/>
+        </navPoint>
+        <navPoint id="num_180" playOrder="180">
+          <navLabel>
+            <text>Friday, September 28, 2020</text>
+          </navLabel>
+          <content src="../September_28.xhtml"/>
+        </navPoint>
+        <navPoint id="num_181" playOrder="181">
+          <navLabel>
+            <text>Saturday, September 30, 2020</text>
+          </navLabel>
+          <content src="../September_30.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_182" playOrder="182">
+        <navLabel>
+          <text>October</text>
+        </navLabel>
+        <content src="../October.xhtml"/>
+        <navPoint id="num_183" playOrder="183">
+          <navLabel>
+            <text>Thursday, October 1, 2020</text>
+          </navLabel>
+          <content src="../October_1.xhtml"/>
+        </navPoint>
+        <navPoint id="num_184" playOrder="184">
+          <navLabel>
+            <text>Saturday, October 3, 2020</text>
+          </navLabel>
+          <content src="../October_3.xhtml"/>
+        </navPoint>
+        <navPoint id="num_185" playOrder="185">
+          <navLabel>
+            <text>Saturday, October 10, 2020</text>
+          </navLabel>
+          <content src="../October_10.xhtml"/>
+        </navPoint>
+        <navPoint id="num_186" playOrder="186">
+          <navLabel>
+            <text>Sunday, October 11, 2020</text>
+          </navLabel>
+          <content src="../October_11.xhtml"/>
+        </navPoint>
+        <navPoint id="num_187" playOrder="187">
+          <navLabel>
+            <text>Sunday, October 18, 2020</text>
+          </navLabel>
+          <content src="../October_18.xhtml"/>
+        </navPoint>
+        <navPoint id="num_188" playOrder="188">
+          <navLabel>
+            <text>Wednesday, October 21, 2020</text>
+          </navLabel>
+          <content src="../October_21.xhtml"/>
+        </navPoint>
+        <navPoint id="num_189" playOrder="189">
+          <navLabel>
+            <text>Thursday, October 22, 2020</text>
+          </navLabel>
+          <content src="../October_22.xhtml"/>
+        </navPoint>
+        <navPoint id="num_190" playOrder="190">
+          <navLabel>
+            <text>Monday, October 26, 2020</text>
+          </navLabel>
+          <content src="../October_26.xhtml"/>
+        </navPoint>
+        <navPoint id="num_191" playOrder="191">
+          <navLabel>
+            <text>Wednesday, October 28, 2020</text>
+          </navLabel>
+          <content src="../October_28.xhtml"/>
+        </navPoint>
+        <navPoint id="num_192" playOrder="192">
+          <navLabel>
+            <text>Saturday, October 31, 2020</text>
+          </navLabel>
+          <content src="../October_31.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_193" playOrder="193">
+        <navLabel>
+          <text>November</text>
+        </navLabel>
+        <content src="../November.xhtml"/>
+        <navPoint id="num_194" playOrder="194">
+          <navLabel>
+            <text>Tuesday, November 3, 2020</text>
+          </navLabel>
+          <content src="../November_3.xhtml"/>
+        </navPoint>
+        <navPoint id="num_195" playOrder="195">
+          <navLabel>
+            <text>Friday, November 6, 2020</text>
+          </navLabel>
+          <content src="../November_6.xhtml"/>
+        </navPoint>
+        <navPoint id="num_196" playOrder="196">
+          <navLabel>
+            <text>Tuesday, November 10, 2020</text>
+          </navLabel>
+          <content src="../November_10.xhtml"/>
+        </navPoint>
+        <navPoint id="num_197" playOrder="197">
+          <navLabel>
+            <text>Wednesday, November 11, 2020</text>
+          </navLabel>
+          <content src="../November_11.xhtml"/>
+        </navPoint>
+        <navPoint id="num_198" playOrder="198">
+          <navLabel>
+            <text>Thursday, November 12, 2020</text>
+          </navLabel>
+          <content src="../November_12.xhtml"/>
+        </navPoint>
+        <navPoint id="num_199" playOrder="199">
+          <navLabel>
+            <text>Thursday, November 19, 2020</text>
+          </navLabel>
+          <content src="../November_19.xhtml"/>
+        </navPoint>
+        <navPoint id="num_200" playOrder="200">
+          <navLabel>
+            <text>Friday, November 20, 2020</text>
+          </navLabel>
+          <content src="../November_20.xhtml"/>
+        </navPoint>
+        <navPoint id="num_201" playOrder="201">
+          <navLabel>
+            <text>Saturday, November 21, 2020</text>
+          </navLabel>
+          <content src="../November_21.xhtml"/>
+        </navPoint>
+        <navPoint id="num_202" playOrder="202">
+          <navLabel>
+            <text>Tuesday, November 24, 2020</text>
+          </navLabel>
+          <content src="../November_24.xhtml"/>
+        </navPoint>
+        <navPoint id="num_203" playOrder="203">
+          <navLabel>
+            <text>Thursday, November 26, 2020</text>
+          </navLabel>
+          <content src="../November_26.xhtml"/>
+        </navPoint>
+        <navPoint id="num_204" playOrder="204">
+          <navLabel>
+            <text>Monday, November 30, 2020</text>
+          </navLabel>
+          <content src="../November_30.xhtml"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_205" playOrder="205">
+        <navLabel>
+          <text>December</text>
+        </navLabel>
+        <content src="../December.xhtml"/>
+        <navPoint id="num_206" playOrder="206">
+          <navLabel>
+            <text>Sunday, December 20, 2020</text>
+          </navLabel>
+          <content src="../December_20.xhtml"/>
+        </navPoint>
+        <navPoint id="num_207" playOrder="207">
+          <navLabel>
+            <text>Thursday, December 24, 2020</text>
+          </navLabel>
+          <content src="../December_24.xhtml"/>
+        </navPoint>
+        <navPoint id="num_208" playOrder="208">
+          <navLabel>
+            <text>Friday, December 25, 2020</text>
+          </navLabel>
+          <content src="../December_25.xhtml"/>
+        </navPoint>
+        <navPoint id="num_209" playOrder="209">
+          <navLabel>
+            <text>Tuesday, December 29, 2020</text>
+          </navLabel>
+          <content src="../December_29.xhtml"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_210" playOrder="210">
+      <navLabel>
+        <text>2021</text>
+      </navLabel>
+      <content src="../Year_2021.xhtml"/>
+      <navPoint id="num_211" playOrder="211">
+        <navLabel>
+          <text>January</text>
+        </navLabel>
+        <content src="../January_2021.xhtml"/>
+        <navPoint id="num_212" playOrder="212">
+          <navLabel>
+            <text>Friday, January 29, 2021</text>
+          </navLabel>
+          <content src="../January_29_2021.xhtml"/>
+        </navPoint>
+        <navPoint id="num_213" playOrder="213">
+          <navLabel>
+            <text>Saturday, January 30, 2021</text>
+          </navLabel>
+          <content src="../January_30_2021.xhtml"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_214" playOrder="214">
+      <navLabel>
+        <text>Resources</text>
+      </navLabel>
+      <content src="../Resources_Page.xhtml#sc_Resources_Page"/>
+    </navPoint>
+    <navPoint id="num_215" playOrder="215">
+      <navLabel>
+        <text>Acknowledgements</text>
+      </navLabel>
+      <content src="../Acknowledgements.xhtml#Acknowledgements"/>
+    </navPoint>
+    <navPoint id="num_216" playOrder="216">
+      <navLabel>
+        <text>About the Author</text>
+      </navLabel>
+      <content src="Text/About_the_Author.xhtml#ata"/>
+    </navPoint>
+    <navPoint id="num_217" playOrder="217">
+      <navLabel>
+        <text>Also by Nightswan Frith Hilton</text>
+      </navLabel>
+      <content src="../AlsoByFrithHilton.xhtml#AlsoByFrithHilton"/>
+    </navPoint>
+    <navPoint id="num_218" playOrder="218">
+      <navLabel>
+        <text>Copyright</text>
+      </navLabel>
+      <content src="Text/CopyrightEnd.xhtml#cop"/>
+    </navPoint>
+  </navMap>
+</ncx>
