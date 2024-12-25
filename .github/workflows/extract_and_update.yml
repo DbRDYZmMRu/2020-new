@@ -28,9 +28,11 @@ jobs:
         run: node extract_and_update.js
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add updated_February.json
           git commit -m 'Update February data with extracted content'
-          git push git push https://github.com/DbRDYZmMRu/2020-new.git HEAD:main  # Replace with your repository URL and branch
+          git push origin HEAD:main  # Ensure this matches your default branch
