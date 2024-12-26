@@ -1,22 +1,34 @@
 const fs = require('fs');
 const path = require('path');
 
-// The February array
-const February = [
-  { date: 'Saturday, February 8, 2020', data: `` },
-  { date: 'Sunday, February 9, 2020', data: `` },
-  { date: 'Tuesday, February 11, 2020', data: `` },
-  { date: 'Wednesday, February 12, 2020', data: `` },
-  { date: 'Thursday, February 13, 2020', data: `` },
-  { date: 'Friday, February 14, 2020', data: `` },
-  { date: 'Saturday, February 15, 2020', data: `` },
-  { date: 'Sunday, February 16, 2020', data: `` },
-  { date: 'Monday, February 17, 2020', data: `` },
-  { date: 'Saturday, February 22, 2020', data: `` },
-  { date: 'Monday, February 24, 2020', data: `` },
-  { date: 'Tuesday, February 25, 2020', data: `` },
-  { date: 'Wednesday, February 26, 2020', data: `` },
-  { date: 'Saturday, February 29, 2020', data: `` },
+// The March array
+const March = [
+                { date: 'Sunday, March 1, 2020', data: `` },
+                { date: 'Monday, March 2, 2020', data: `` },
+                { date: 'Thursday, March 5, 2020', data: `` },
+                { date: 'Friday, March 6, 2020', data: `` },
+                { date: 'Saturday, March 7, 2020', data: `` },
+                { date: 'Sunday, March 8, 2020', data: `` },
+                { date: 'Monday, March 9, 2020', data: `` },
+                { date: 'Tuesday, March 10, 2020', data: `` },
+                { date: 'Wednesday, March 11, 2020', data: `` },
+                { date: 'Thursday, March 12, 2020', data: `` },
+                { date: 'Friday, March 13, 2020', data: `` },
+                { date: 'Saturday, March 14, 2020', data: `` },
+                { date: 'Sunday, March 15, 2020', data: `` },
+                { date: 'Monday, March 16, 2020', data: `` },
+                { date: 'Tuesday, March 17, 2020', data: `` },
+                { date: 'Thursday, March 19, 2020', data: `` },
+                { date: 'Friday, March 20, 2020', data: `` },
+                { date: 'Saturday, March 21, 2020', data: `` },
+                { date: 'Sunday, March 22, 2020', data: `` },
+                { date: 'Tuesday, March 24, 2020', data: `` },
+                { date: 'Wednesday, March 25, 2020', data: `` },
+                { date: 'Thursday, March 26, 2020', data: `` },
+                { date: 'Friday, March 27, 2020', data: `` },
+                { date: 'Saturday, March 28, 2020', data: `` },
+                { date: 'Sunday, March 29, 2020', data: `` },
+                { date: 'Monday, March 30, 2020', data: `` },
 ];
 
 // Directory containing the XHTML files
@@ -41,7 +53,7 @@ const extractContentBetweenPTags = (content) => {
   return sectionContent.slice(firstPTagIndex, lastPTagIndex);
 };
 
-// Read the XHTML files and populate the February array
+// Read the XHTML files and populate the March array
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
     return console.log('Unable to scan directory: ' + err);
@@ -60,14 +72,14 @@ fs.readdir(directoryPath, (err, files) => {
       // Extract content between the first <p> and the last <p> tags within <section>
       const pContent = extractContentBetweenPTags(data);
 
-      // Find the corresponding date in the February array and update the data field
-      const entry = February.find((entry) => entry.date.includes(fileDate));
+      // Find the corresponding date in the March array and update the data field
+      const entry = March.find((entry) => entry.date.includes(fileDate));
       if (entry) {
         entry.data = pContent;
       }
 
-      // Save the updated February array to a file
-      fs.writeFile('updated_February.json', JSON.stringify(February, null, 2), (err) => {
+      // Save the updated March array to a file
+      fs.writeFile('updated_March.json', JSON.stringify(March, null, 2), (err) => {
         if (err) {
           console.error('Error writing file:', err);
         } else {
