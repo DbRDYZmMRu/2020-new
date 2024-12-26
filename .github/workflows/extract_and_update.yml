@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add updated_May.json
-          git commit -m 'Update May data with extracted content'
+          git add updated_June.json
+          git commit -m 'Update June data with extracted content'
           git push origin HEAD:main  # Ensure this matches your default branch

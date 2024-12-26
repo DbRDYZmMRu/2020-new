@@ -1,37 +1,27 @@
 const fs = require('fs');
 const path = require('path');
 
-// The May array
-const May = [
-                { date: 'Friday, May 1, 2020', data: `` },
-                { date: 'Saturday, May 2, 2020', data: `` },
-                { date: 'Sunday, May 3, 2020', data: `` },
-                { date: 'Monday, May 4, 2020', data: `` },
-                { date: 'Tuesday, May 5, 2020', data: `` },
-                { date: 'Wednesday, May 6, 2020', data: `` },
-                { date: 'Thursday, May 7, 2020', data: `` },
-                { date: 'Friday, May 8, 2020', data: `` },
-                { date: 'Saturday, May 9, 2020', data: `` },
-                { date: 'Sunday, May 10, 2020', data: `` },
-                { date: 'Monday, May 11, 2020', data: `` },
-                { date: 'Tuesday, May 12, 2020', data: `` },
-                { date: 'Wednesday, May 13, 2020', data: `` },
-                { date: 'Thursday, May 14, 2020', data: `` },
-                { date: 'Friday, May 15, 2020', data: `` },
-                { date: 'Saturday, May 16, 2020', data: `` },
-                { date: 'Sunday, May 17, 2020', data: `` },
-                { date: 'Monday, May 18, 2020', data: `` },
-                { date: 'Tuesday, May 19, 2020', data: `` },
-                { date: 'Wednesday, May 20, 2020', data: `` },
-                { date: 'Thursday, May 21, 2020', data: `` },
-                { date: 'Friday, May 22, 2020', data: `` },
-                { date: 'Saturday, May 23, 2020', data: `` },
-                { date: 'Monday, May 25, 2020', data: `` },
-                { date: 'Tuesday, May 26, 2020', data: `` },
-                { date: 'Wednesday, May 27, 2020', data: `` },
-                { date: 'Thursday, May 28, 2020', data: `` },
-                { date: 'Saturday, May 30, 2020', data: `` },
-                { date: 'Sunday, May 31, 2020', data: `` },
+// The June array
+const June = [
+                { date: 'Thursday, June 3, 2020', data: `` },
+                { date: 'Saturday, June 6, 2020', data: `` },
+                { date: 'Sunday, June 7, 2020', data: `` },
+                { date: 'Monday, June 8, 2020', data: `` },
+                { date: 'Tuesday, June 9, 2020', data: `` },
+                { date: 'Wednesday, June 10, 2020', data: `` },
+                { date: 'Thursday, June 11, 2020', data: `` },
+                { date: 'Friday, June 12, 2020', data: `` },
+                { date: 'Saturday, June 13, 2020', data: `` },
+                { date: 'Sunday, June 14, 2020', data: `` },
+                { date: 'Monday, June 15, 2020', data: `` },
+                { date: 'Friday, June 19, 2020', data: `` },
+                { date: 'Saturday, June 20, 2020', data: `` },
+                { date: 'Monday, June 22, 2020', data: `` },
+                { date: 'Tuesday, June 23, 2020', data: `` },
+                { date: 'Wednesday, June 24, 2020', data: `` },
+                { date: 'Sunday, June 28, 2020', data: `` },
+                { date: 'Monday, June 29, 2020', data: `` },
+                { date: 'Tuesday, June 30, 2020', data: `` },
 ];
 
 // Directory containing the XHTML 
@@ -56,7 +46,7 @@ const extractContentBetweenPTags = (content) => {
   return sectionContent.slice(firstPTagIndex, lastPTagIndex);
 };
 
-// Read the XHTML files and populate the May array
+// Read the XHTML files and populate the June array
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
     return console.log('Unable to scan directory: ' + err);
@@ -75,14 +65,14 @@ fs.readdir(directoryPath, (err, files) => {
       // Extract content between the first <p> and the last <p> tags within <section>
       const pContent = extractContentBetweenPTags(data);
 
-      // Find the corresponding date in the May array and update the data field
-      const entry = May.find((entry) => entry.date.includes(fileDate));
+      // Find the corresponding date in the June array and update the data field
+      const entry = June.find((entry) => entry.date.includes(fileDate));
       if (entry) {
         entry.data = pContent;
       }
 
-      // Save the updated May array to a file
-      fs.writeFile('updated_May.json', JSON.stringify(May, null, 2), (err) => {
+      // Save the updated June array to a file
+      fs.writeFile('updated_June.json', JSON.stringify(June, null, 2), (err) => {
         if (err) {
           console.error('Error writing file:', err);
         } else {
