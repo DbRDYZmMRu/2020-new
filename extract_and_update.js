@@ -1,39 +1,40 @@
 const fs = require('fs');
 const path = require('path');
 
-// The April array
-const April = [
-                { date: 'Thursday, April 2, 2020', data: `` },
-                { date: 'Friday, April 3, 2020', data: `` },
-                { date: 'Saturday, April 4, 2020', data: `` },
-                { date: 'Sunday, April 5, 2020', data: `` },
-                { date: 'Tuesday, April 7, 2020', data: `` },
-                { date: 'Wednesday, April 8, 2020', data: `` },
-                { date: 'Thursday, April 9, 2020', data: `` },
-                { date: 'Friday, April 10, 2020', data: `` },
-                { date: 'Saturday, April 11, 2020', data: `` },
-                { date: 'Sunday, April 12, 2020', data: `` },
-                { date: 'Monday, April 13, 2020', data: `` },
-                { date: 'Tuesday, April 14, 2020', data: `` },
-                { date: 'Wednesday, April 15, 2020', data: `` },
-                { date: 'Thursday, April 16, 2020', data: `` },
-                { date: 'Friday, April 17, 2020', data: `` },
-                { date: 'Saturday, April 18, 2020', data: `` },
-                { date: 'Sunday, April 19, 2020', data: `` },
-                { date: 'Monday, April 20, 2020', data: `` },
-                { date: 'Tuesday, April 21, 2020', data: `` },
-                { date: 'Wednesday, April 22, 2020', data: `` },
-                { date: 'Thursday, April 23, 2020', data: `` },
-                { date: 'Friday, April 24, 2020', data: `` },
-                { date: 'Saturday, April 25, 2020', data: `` },
-                { date: 'Sunday, April 26, 2020', data: `` },
-                { date: 'Monday, April 27, 2020', data: `` },
-                { date: 'Tuesday, April 28, 2020', data: `` },
-                { date: 'Wednesday, April 29, 2020', data: `` },
-                { date: 'Thursday, April 30, 2020', data: `` },
+// The May array
+const May = [
+                { date: 'Friday, May 1, 2020', data: `` },
+                { date: 'Saturday, May 2, 2020', data: `` },
+                { date: 'Sunday, May 3, 2020', data: `` },
+                { date: 'Monday, May 4, 2020', data: `` },
+                { date: 'Tuesday, May 5, 2020', data: `` },
+                { date: 'Wednesday, May 6, 2020', data: `` },
+                { date: 'Thursday, May 7, 2020', data: `` },
+                { date: 'Friday, May 8, 2020', data: `` },
+                { date: 'Saturday, May 9, 2020', data: `` },
+                { date: 'Sunday, May 10, 2020', data: `` },
+                { date: 'Monday, May 11, 2020', data: `` },
+                { date: 'Tuesday, May 12, 2020', data: `` },
+                { date: 'Wednesday, May 13, 2020', data: `` },
+                { date: 'Thursday, May 14, 2020', data: `` },
+                { date: 'Friday, May 15, 2020', data: `` },
+                { date: 'Saturday, May 16, 2020', data: `` },
+                { date: 'Sunday, May 17, 2020', data: `` },
+                { date: 'Monday, May 18, 2020', data: `` },
+                { date: 'Tuesday, May 19, 2020', data: `` },
+                { date: 'Wednesday, May 20, 2020', data: `` },
+                { date: 'Thursday, May 21, 2020', data: `` },
+                { date: 'Friday, May 22, 2020', data: `` },
+                { date: 'Saturday, May 23, 2020', data: `` },
+                { date: 'Monday, May 25, 2020', data: `` },
+                { date: 'Tuesday, May 26, 2020', data: `` },
+                { date: 'Wednesday, May 27, 2020', data: `` },
+                { date: 'Thursday, May 28, 2020', data: `` },
+                { date: 'Saturday, May 30, 2020', data: `` },
+                { date: 'Sunday, May 31, 2020', data: `` },
 ];
 
-// Directory containing the XHTML files
+// Directory containing the XHTML 
 const directoryPath = path.join(__dirname, '2020-main/2020');
 
 // Function to extract content between first <p> and last <p> tags within <section>
@@ -55,7 +56,7 @@ const extractContentBetweenPTags = (content) => {
   return sectionContent.slice(firstPTagIndex, lastPTagIndex);
 };
 
-// Read the XHTML files and populate the April array
+// Read the XHTML files and populate the May array
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
     return console.log('Unable to scan directory: ' + err);
@@ -74,14 +75,14 @@ fs.readdir(directoryPath, (err, files) => {
       // Extract content between the first <p> and the last <p> tags within <section>
       const pContent = extractContentBetweenPTags(data);
 
-      // Find the corresponding date in the April array and update the data field
-      const entry = April.find((entry) => entry.date.includes(fileDate));
+      // Find the corresponding date in the May array and update the data field
+      const entry = May.find((entry) => entry.date.includes(fileDate));
       if (entry) {
         entry.data = pContent;
       }
 
-      // Save the updated April array to a file
-      fs.writeFile('updated_April.json', JSON.stringify(April, null, 2), (err) => {
+      // Save the updated May array to a file
+      fs.writeFile('updated_May.json', JSON.stringify(May, null, 2), (err) => {
         if (err) {
           console.error('Error writing file:', err);
         } else {
