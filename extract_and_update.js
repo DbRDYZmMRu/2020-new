@@ -1,29 +1,24 @@
 const fs = require('fs');
 const path = require('path');
 
-// The July array
-const July = [
-                { date: 'Wednesday, July 1, 2020', data: `` },
-                { date: 'Thursday, July 2, 2020', data: `` },
-                { date: 'Friday, July 3, 2020', data: `` },
-                { date: 'Saturday, July 4, 2020', data: `` },
-                { date: 'Sunday, July 5, 2020', data: `` },
-                { date: 'Monday, July 6, 2020', data: `` },
-                { date: 'Tuesday, July 7, 2020', data: `` },
-                { date: 'Wednesday, July 8, 2020', data: `` },
-                { date: 'Thursday, July 9, 2020', data: `` },
-                { date: 'Friday, July 10, 2020', data: `` },
-                { date: 'Saturday, July 11, 2020', data: `` },
-                { date: 'Sunday, July 12, 2020', data: `` },
-                { date: 'Monday, July 13, 2020', data: `` },
-                { date: 'Wednesday, July 15, 2020', data: `` },
-                { date: 'Wednesday, July 22, 2020', data: `` },
-                { date: 'Saturday, July 25, 2020', data: `` },
-                { date: 'Sunday, July 26, 2020', data: `` },
-                { date: 'Monday, July 27, 2020', data: `` },
-                { date: 'Tuesday, July 28, 2020', data: `` },
-                { date: 'Wednesday, July 29, 2020', data: `` },
-                { date: 'Thursday, July 30, 2020', data: `` },
+// The August array
+const August = [
+                { date: 'Saturday, August 1, 2020', data: `` },
+                { date: 'Sunday, August 2, 2020', data: `` },
+                { date: 'Tuesday, August 4, 2020', data: `` },
+                { date: 'Wednesday, August 5, 2020', data: `` },
+                { date: 'Friday, August 7, 2020', data: `` },
+                { date: 'Saturday, August 8, 2020', data: `` },
+                { date: 'Sunday, August 9, 2020', data: `` },
+                { date: 'Sunday, August 9, 2020', data: `` },
+                { date: 'Friday, August 14, 2020', data: `` },
+                { date: 'Sunday, August 16, 2020', data: `` },
+                { date: 'Monday, August 17, 2020', data: `` },
+                { date: 'Tuesday, August 18, 2020', data: `` },
+                { date: 'Wednesday, August 19, 2020', data: `` },
+                { date: 'Friday, August 21, 2020', data: `` },
+                { date: 'Saturday, August 22, 2020', data: `` },
+                { date: 'Tuesday, August 25, 2020', data: `` },
 ];
 
 // Directory containing the XHTML 
@@ -48,7 +43,7 @@ const extractContentBetweenPTags = (content) => {
   return sectionContent.slice(firstPTagIndex, lastPTagIndex);
 };
 
-// Read the XHTML files and populate the July array
+// Read the XHTML files and populate the August array
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
     return console.log('Unable to scan directory: ' + err);
@@ -67,14 +62,14 @@ fs.readdir(directoryPath, (err, files) => {
       // Extract content between the first <p> and the last <p> tags within <section>
       const pContent = extractContentBetweenPTags(data);
 
-      // Find the corresponding date in the July array and update the data field
-      const entry = July.find((entry) => entry.date.includes(fileDate));
+      // Find the corresponding date in the August array and update the data field
+      const entry = August.find((entry) => entry.date.includes(fileDate));
       if (entry) {
         entry.data = pContent;
       }
 
-      // Save the updated July array to a file
-      fs.writeFile('updated_July.json', JSON.stringify(July, null, 2), (err) => {
+      // Save the updated August array to a file
+      fs.writeFile('updated_August.json', JSON.stringify(August, null, 2), (err) => {
         if (err) {
           console.error('Error writing file:', err);
         } else {
