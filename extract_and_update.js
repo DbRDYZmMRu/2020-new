@@ -20,7 +20,7 @@ const February = [
 ];
 
 // Directory containing the XHTML files
-const directoryPath = path.join(__dirname, 'xhtml_files');
+const directoryPath = path.join(__dirname, '2020-main/2020');
 
 // Function to extract content between first <p> and last <p> tags within <section>
 const extractContentBetweenPTags = (content) => {
