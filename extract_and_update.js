@@ -1,18 +1,19 @@
 const fs = require('fs');
 const path = require('path');
 
-// The October array
-const October = [
-                { date: 'Thursday, October 1, 2020', data: `` },
-                { date: 'Saturday, October 3, 2020', data: `` },
-                { date: 'Saturday, October 10, 2020', data: `` },
-                { date: 'Sunday, October 11, 2020', data: `` },
-                { date: 'Sunday, October 18, 2020', data: `` },
-                { date: 'Wednesday, October 21, 2020', data: `` },
-                { date: 'Thursday, October 22, 2020', data: `` },
-                { date: 'Monday, October 26, 2020', data: `` },
-                { date: 'Wednesday, October 28, 2020', data: `` },
-                { date: 'Saturday, October 31, 2020', data: `` },
+// The November array
+const November = [
+                { date: 'Tuesday, November 3, 2020', data: `` },
+                { date: 'Friday, November 6, 2020', data: `` },
+                { date: 'Tuesday, November 10, 2020', data: `` },
+                { date: 'Wednesday, November 11, 2020', data: `` },
+                { date: 'Thursday, November 12, 2020', data: `` },
+                { date: 'Thursday, November 19, 2020', data: `` },
+                { date: 'Friday, November 20, 2020', data: `` },
+                { date: 'Saturday, November 21, 2020', data: `` },
+                { date: 'Tuesday, November 24, 2020', data: `` },
+                { date: 'Thursday, November 26, 2020', data: `` },
+                { date: 'Monday, November 30, 2020', data: `` },
                 ];
 
 // Directory containing the XHTML 
@@ -37,7 +38,7 @@ const extractContentBetweenPTags = (content) => {
   return sectionContent.slice(firstPTagIndex, lastPTagIndex);
 };
 
-// Read the XHTML files and populate the October array
+// Read the XHTML files and populate the November array
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
     return console.log('Unable to scan directory: ' + err);
@@ -56,14 +57,14 @@ fs.readdir(directoryPath, (err, files) => {
       // Extract content between the first <p> and the last <p> tags within <section>
       const pContent = extractContentBetweenPTags(data);
 
-      // Find the corresponding date in the October array and update the data field
-      const entry = October.find((entry) => entry.date.includes(fileDate));
+      // Find the corresponding date in the November array and update the data field
+      const entry = November.find((entry) => entry.date.includes(fileDate));
       if (entry) {
         entry.data = pContent;
       }
 
-      // Save the updated October array to a file
-      fs.writeFile('updated_October.json', JSON.stringify(October, null, 2), (err) => {
+      // Save the updated November array to a file
+      fs.writeFile('updated_November.json', JSON.stringify(November, null, 2), (err) => {
         if (err) {
           console.error('Error writing file:', err);
         } else {
