@@ -20,13 +20,25 @@ const February = [
 ];
 
 // Directory containing the XHTML files
-const directoryPath = path.join(__dirname, '2020-main/2020');
+const directoryPath = path.join(__dirname, 'xhtml_files');
 
-// Function to extract content between <section> tags
-const extractContentBetweenSectionTags = (content) => {
+// Function to extract content between first <p> and last <p> tags within <section>
+const extractContentBetweenPTags = (content) => {
   const sectionRegex = /<section[^>]*>([\s\S]*?)<\/section>/i;
-  const match = content.match(sectionRegex);
-  return match ? match[0] : '';
+  const sectionMatch = content.match(sectionRegex);
+
+  if (!sectionMatch) return '';
+
+  const sectionContent = sectionMatch[1];
+  const pTagRegex = /<p[^>]*>([\s\S]*?)<\/p>/gi;
+  const pTags = [...sectionContent.matchAll(pTagRegex)];
+
+  if (pTags.length === 0) return '';
+
+  // Extract content from the first <p> to the last <p>
+  const firstPTagIndex = pTags[0].index;
+  const lastPTagIndex = pTags[pTags.length - 1].index + pTags[pTags.length - 1][0].length;
+  return sectionContent.slice(firstPTagIndex, lastPTagIndex);
 };
 
 // Read the XHTML files and populate the February array
@@ -45,13 +57,13 @@ fs.readdir(directoryPath, (err, files) => {
         return console.log('Unable to read file: ' + err);
       }
 
-      // Extract content between <section> tags
-      const sectionContent = extractContentBetweenSectionTags(data);
+      // Extract content between the first <p> and the last <p> tags within <section>
+      const pContent = extractContentBetweenPTags(data);
 
       // Find the corresponding date in the February array and update the data field
       const entry = February.find((entry) => entry.date.includes(fileDate));
       if (entry) {
-        entry.data = sectionContent;
+        entry.data = pContent;
       }
 
       // Save the updated February array to a file
