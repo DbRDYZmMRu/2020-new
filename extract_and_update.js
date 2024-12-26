@@ -1,12 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-// The December array
-const December = [
-                { date: 'Sunday, December 20, 2020', data: `` },
-                { date: 'Thursday, December 24, 2020', data: `` },
-                { date: 'Friday, December 25, 2020', data: `` },
-                { date: 'Tuesday, December 29, 2020', data: `` },
+// The January array
+const January = [
+                { date: 'Friday, January 29, 2021', data: `` },
+                { date: 'Saturday, January 30, 2021', data: `` },
                 ];
 
 // Directory containing the XHTML 
@@ -31,7 +29,7 @@ const extractContentBetweenPTags = (content) => {
   return sectionContent.slice(firstPTagIndex, lastPTagIndex);
 };
 
-// Read the XHTML files and populate the December array
+// Read the XHTML files and populate the January array
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
     return console.log('Unable to scan directory: ' + err);
@@ -50,14 +48,14 @@ fs.readdir(directoryPath, (err, files) => {
       // Extract content between the first <p> and the last <p> tags within <section>
       const pContent = extractContentBetweenPTags(data);
 
-      // Find the corresponding date in the December array and update the data field
-      const entry = December.find((entry) => entry.date.includes(fileDate));
+      // Find the corresponding date in the January array and update the data field
+      const entry = January.find((entry) => entry.date.includes(fileDate));
       if (entry) {
         entry.data = pContent;
       }
 
-      // Save the updated December array to a file
-      fs.writeFile('updated_December.json', JSON.stringify(December, null, 2), (err) => {
+      // Save the updated January array to a file
+      fs.writeFile('updated_January.json', JSON.stringify(January, null, 2), (err) => {
         if (err) {
           console.error('Error writing file:', err);
         } else {
