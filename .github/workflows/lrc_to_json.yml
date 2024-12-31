@@ -14,14 +14,12 @@ jobs:
 
       - name: Convert LRC to JSON
         run: |
-          lrc_file="lyrics.lrc"
-          output_file="lyrics.json"
-          node convert_lrc.js "$lrc_file" "$output_file"
+          node convert_lrc.js
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add "$output_file"
+          git add lyrics.json
           git commit -m "Update JSON file"
           git push
