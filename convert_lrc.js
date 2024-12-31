@@ -15,8 +15,8 @@ lines.forEach((line) => {
     const hours = parseInt(match[1]);
     const minutes = parseInt(match[2]);
     const seconds = parseInt(match[3]);
-    const milliseconds = hours * 3600000 + minutes * 60000 + seconds * 1000 + parseInt(match[4]) * 10;
-    const text = match[5].trim();
+    const text = match[4].trim();
+    const milliseconds = hours * 3600000 + minutes * 60000 + seconds * 1000;
 
     lyrics.push({ time: milliseconds, line: text });
   } else if (line.startsWith('[ti:')) {
