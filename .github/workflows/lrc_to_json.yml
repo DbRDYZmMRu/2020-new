@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Convert LRC to JSON
-        run: convert_lrc.js
+        run: node convert_lrc.js
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
