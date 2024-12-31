@@ -1,4 +1,4 @@
-name: Extract and Update LRC to JSON Data
+name: Extract and Update the LRC to JSON Data
 
 on:
 push:
