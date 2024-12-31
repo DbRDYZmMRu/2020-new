@@ -1,27 +1,34 @@
-name: LRC to JSON
+name: Extract and Update LRC to JSON Data
 
 on:
-  push:
-    branches:
-      - main
+push:
+branches:
+- main
+
+permissions:
+contents: write
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.PAT }}
+build:
+runs-on: ubuntu-latest
+steps:
+- name: Checkout repository
+uses: actions/checkout@v2
 
-      - name: Convert LRC to JSON
-        run: |
-          node convert_lrc.js
+```  - name: Set up Node.js
+    uses: actions/setup-node@v2
+    with:
+      node-version: '14'
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git add lyrics.json
-          git commit -m "Update JSON file"
-          git push
+  - name: Run the LRC to JSON conversion script
+    run: node convert_lrc.js
+
+  - name: Commit and push changes
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    run: |
+      git config --global user.name 'github-actions'
+      git config --global user.email 'github-actions@github.com'
+      git add lyrics.json
+      git commit -m 'Update JSON file with extracted LRC content'
+      git push origin HEAD:main
