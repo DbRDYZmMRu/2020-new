@@ -1,27 +1,19 @@
 name: LRC to JSON
-
-on:
+'on':
   push:
     branches:
       - main
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run the extraction script
-        run: node extract_and_update.js
-
+      - name: Convert LRC to JSON
+        run: convert_lrc.js
       - name: Commit and push changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
