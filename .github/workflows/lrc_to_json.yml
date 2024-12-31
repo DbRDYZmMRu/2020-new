@@ -14,7 +14,7 @@ uses: actions/checkout@v2
 with:
 token: ${{ secrets.GITHUB_TOKEN }}
 
-```  - name: Convert LRC to JSON
+- name: Convert LRC to JSON
     run: |
       node convert_lrc.js
 
