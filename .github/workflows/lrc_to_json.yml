@@ -1,0 +1,27 @@
+name: LRC to JSON
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Convert LRC to JSON
+        run: |
+          lrc_file="lyrics.lrc"
+          output_file="lyrics.json"
+          node convert_lrc.js "$lrc_file" "$output_file"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add "$output_file"
+          git commit -m "Update JSON file"
+          git push
